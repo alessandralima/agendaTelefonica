@@ -1,0 +1,11 @@
+create database agenda;
+set agenda;
+
+create table pessoa(  
+   cpf varchar(14) not null,  
+   nome varchar(40) not null,  
+   operadora varchar(20) not null,   
+   cidade varchar(20) not null,  
+   telefone varchar(10) not null, 
+   primary key(cpf)         
+);
